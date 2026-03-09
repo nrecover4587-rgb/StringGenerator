@@ -44,8 +44,8 @@ async def start_handler(bot: Client, message: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("⚙️ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ", callback_data="generate")],
             [
-                InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/codexempire"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url="https://t.me/codexempire")
+                InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/mistubots"),
+                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url="https://t.me/mistubots")
             ]
         ])
 
